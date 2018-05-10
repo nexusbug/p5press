@@ -1,0 +1,148 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f5f5f5;    /* Easy (color) on the eyes */
+}
+
+p {
+  line-height: 1.8;
+}
+
+.navbar-brand:hover {
+  color: #0091ea !important;
+}
+
+.navbar-nav > li > a:hover  {
+  color: #0091ea !important;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+/* Default state */
+.pagination li a {
+  background-color: #f5f5f5;
+  color: #90a4ae;
+}
+
+/* Return to default state after click */
+.pagination li a:focus {
+  background-color: #f5f5f5;
+  color: #90a4ae;
+}
+
+/* Mouseover state */
+.pagination li:hover:not(.active) a {
+  background-color: #64b5f6;
+  color: white;
+}
+
+.form-control {
+  background-color: #f5f5f5;
+  color: purple;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+/* Episode title */
+.title {
+  font-family: "Metamorphous";
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Episode story */
+.story {
+  font-family: "Open Sans";
+}
+
+/* Sketch and Content part */
+.pad {
+  margin-top: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+
+#canvas-holder {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.whatsapp-send {
+  text-decoration: none !important;
+  font-size: 12px;
+  color: #FFF !important;
+  display: inline-block;
+  background-color: #128c7e !important;
+  font-weight: bold !important;
+  padding: 6px;
+  border-radius: 4px;
+  width: 76px;
+  height: 28px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.whatsapp-send:hover {
+  background-color: #075e54 !important;
+}
+
+.whatsapp-send:focus {
+  background-color: #075e54 !important;
+}
+
+.fa-whatsapp {
+  font-size: 1.5em;
+  vertical-align: top;
+}
+
+.footer-holder {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+/* Links idle color in the footer area */
+.footer a {
+  color: #90a4ae;
+}
+
+/* Github Link Hover*/
+.github-link a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Episode Code Link Hover*/
+.code-link a:hover {
+  color: #aa00ff;
+  text-decoration: none;
+}
+
+/* Twitter Link Hover*/
+.twitter-link a:hover {
+  color: #55acee;
+  text-decoration: none;
+}
+
+/* Instagram Link Hover*/
+.instagram-link a:hover {
+  color: #fb3958;
+  text-decoration: none;
+}
+
+/* nexusbug Copyright Link Hover*/
+.copyright-link a:hover {
+  color: #000000;
+  text-decoration: none;
+}
