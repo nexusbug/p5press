@@ -1,5 +1,6 @@
 # p5press
-An open source website template for p5js and canvas animation lovers
+An open source website template for p5js and canvas animation lovers<br>
+Can also be used by photographers and illustrators
 
 # Version 1.0
 
